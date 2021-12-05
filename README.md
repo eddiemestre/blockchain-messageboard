@@ -1,13 +1,9 @@
-## Running React on Repl.it
+## Blockchain Messanger with React
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+[React](https://reactjs.org/) web app that allows users to connect their metamask wallets and write a message to the website. The message is stored on the blockchain. 
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+- brief descrption of backend - 
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+- brief description of frontend - 
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
-
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the `.replit` file.
+This app was built with the help of [buildspace](https://buildspace.so/).
