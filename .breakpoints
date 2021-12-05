@@ -1,0 +1,20 @@
+{
+  "files": {
+    "js/demo.js": [
+      {
+        "id": "d0212d74-054d-4aa8-a888-0c857bd1d416",
+        "line": 258,
+        "version": 316,
+        "index": 7323
+      }
+    ],
+    "src/modal.jsx": [
+      {
+        "id": "e48fba96-a35f-4b54-b114-814b2453f85c",
+        "line": 125,
+        "version": 775,
+        "index": 2637
+      }
+    ]
+  }
+}

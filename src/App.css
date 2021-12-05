@@ -1,0 +1,200 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 95%;
+  margin-top: 1.5%;
+}
+
+.dataContainer {
+	padding: 24px;
+  position: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1000px;
+  max-height: 100%;
+	background-blend-mode: screen;
+	background: rgba(77, 77, 77, 0.5);
+  overflow-y: auto;
+}
+
+.header {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 900;
+	color: white;
+  position: sticky;
+}
+
+.bio {
+  text-align: center;
+  color: white;
+}
+
+.waveButton {
+  width: 100%;
+  height: 3em;
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+}
+
+h2 { 
+	font-size: 32px; 
+	font-weight: 900;
+	color: white;
+ }
+
+textarea {
+	resize: none;
+	padding: 10px;
+	max-width: 100%;
+	line-height: 1.5;
+  width: 100%;
+  height: 10%;
+	/* border: 1px solid #ccc; */
+	/* box-shadow: 1px 1px 1px rgba(252, 0, 0, 0.089); */
+	outline: none;
+  overflow-y: auto;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+	sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+	/* background: -webkit-linear-gradient(rgba(228, 132, 6, 0.863), rgba(110, 66, 25, 0.918)); */
+	background: rgba(77, 77, 77, 0.5);
+}
+
+Modal {
+  padding-left: 3em;
+}
+
+span {
+	color:rgba(77, 77, 77);
+	font-size: 16px;
+	font-weight: 700;
+  height: 10%;
+}
+
+.char {
+  	color: #FFFFFF;
+    font-size: 16px;
+    height: 5%;
+	  font-weight: 700;
+    position: relative;
+    align-items: right;
+    float: right;
+    padding-bottom: 10px;
+
+}
+
+::placeholder {
+	color: rgba(255, 255, 255, 0.8);
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.waveButton {
+  align-items: center;
+  background-image: rgba(77, 77, 77, 0.5);
+  border: 0;
+  box-shadow: rgba(55, 82, 51, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+	font-weight: 900;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+	margin-top: 16px;
+  width: 100%;
+}
+
+.waveButton:disabled {
+  opacity: 0.8;
+}
+
+.waveButton:active,
+.waveButton:hover {
+  outline: 0;
+  opacity: 0.8;
+  background-color: rgb(214, 214, 214);
+}
+
+
+.waveTable {
+	color: white;
+	table-layout: fixed;
+	border-collapse: collapse; 
+}
+
+thead {
+	padding: 16px;
+	/* border-bottom: 2px solid rgba(255, 255, 255, 0.233); */
+}
+
+th {
+	text-align: left;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+td {
+	font-weight: 800;
+	padding: 1em 4em 1em 0px;
+}
+
+tr {
+	margin: 8px;
+}
+
+.waveTable__sender {
+	width: 150px;
+}
+
+.waveTable__sent {
+  width: 500px;
+
+
+}
+ 
+.waveTable_msg {
+    width: 300px;
+    padding-left: 6em;
+}
+
+.waveTable_colSent {
+  padding-left: 5em;
+}
+
+@media (min-width: 768px) {
+  .waveButton {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}

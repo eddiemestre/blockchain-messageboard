@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="src/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+
+    <title>Vite App</title>
+  </head>
+  <body class="demo-2">
+
+    <main>
+      <div style="position: relative; display: inline-block; width: 100%">
+        <div id="root"></div>
+        <div class="content">
+        
+        <!-- The canvas where ThreeJs renders the WebGL -->
+        <canvas id="scene" class="clickable"></canvas>
+        </div>
+
+      
+      </div>
+
+      
+    </main>
+
+    <script src="js/vendors/three.min.js"></script>
+		<script src="js/vendors/TweenMax.min.js"></script>
+		<script src="js/demo.js"></script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
