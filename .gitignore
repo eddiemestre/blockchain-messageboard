@@ -3,3 +3,15 @@ node_modules
 dist
 dist-ssr
 *.local
+
+node_modules
+.env
+coverage
+coverage.json
+typechain
+README.md
+
+#Hardhat files
+cache
+artifacts
+hardhat.config.js
